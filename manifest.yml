@@ -1,0 +1,7 @@
+---
+applications:
+  - name: first-employee-api
+    path: build/libs/springboot-to-pcf-0.0.1-SNAPSHOT.jar
+    random-route: true
+    services:
+    - syanagihara-mysql
